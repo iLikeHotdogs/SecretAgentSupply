@@ -1,0 +1,45 @@
+/*Entire page*/
+
+
+
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+
+  font-size: 18px;
+  font-family: "Helvetica", "sans-serif";
+
+}
+
+
+/*Header*/
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+  font-size: 1 rem;
+  color: white;
+}
+
+header img {
+  height: 1.5em;
+  padding-right: 15px;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+
+header span {
+  padding-top: 0.66em;
+  padding-bottom: 0.66em;
+}
