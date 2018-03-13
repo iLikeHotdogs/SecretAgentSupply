@@ -8,38 +8,92 @@ html {
 }
 
 body {
-
-  font-size: 18px;
-  font-family: "Helvetica", "sans-serif";
-
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
 }
 
 
-/*Header*/
+/*company section*/
 
 .container {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
-header {
+
+.company {
   background-color: black;
-  font-size: 1 rem;
   color: white;
 }
 
-header img {
+.company img {
   height: 1.5em;
   padding-right: 15px;
 }
 
-header .container {
-  display: flex;
-  align-items: center;
-  padding: 12px 0 12px 0.5em;
+img {
+  border-style: none;
 }
 
-header span {
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px 12px 0.5em;
+}
+
+.company span {
   padding-top: 0.66em;
   padding-bottom: 0.66em;
+}
+
+
+/*Main section*/
+
+.main {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 25em;
+}
+
+.headline {
+  background-color: black;
+  font-weight: bold;
+  width: 20em;
+  color: white;
+  top: 9em;
+  position: relative;
+  padding: 2em 3em;
+}
+
+h1, h4 {
+  font-weight: bold;
+}
+
+.headline h1 {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: 0.25em 0px;
+  align-items: center;
+}
+
+
+/*Nav section */
+
+nav {
+  background-color: firebrick;
+  color: white;
+
+}
+
+nav ul {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0px;
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
